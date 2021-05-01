@@ -13,6 +13,18 @@
 		FDF7E65D2634682C0005843D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF7E648263468280005843D /* ContentView.swift */; };
 		FDF7E65E2634682C0005843D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDF7E6492634682C0005843D /* Assets.xcassets */; };
 		FDF7E65F2634682C0005843D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDF7E6492634682C0005843D /* Assets.xcassets */; };
+		FDF7E66F2634699A0005843D /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF7E66E2634699A0005843D /* HapticManager.swift */; };
+		FDF7E674263469C00005843D /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF7E673263469C00005843D /* Colors.swift */; };
+		FDF7E67926346A610005843D /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF7E67826346A610005843D /* Triangle.swift */; };
+		FDF7E67D26346BDD0005843D /* Tick.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF7E67C26346BDD0005843D /* Tick.swift */; };
+		FDF7E68126346C3D0005843D /* ShirtView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF7E68026346C3D0005843D /* ShirtView.swift */; };
+		FDF7E685263470370005843D /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF7E684263470370005843D /* CartView.swift */; };
+		FDF7E689263472260005843D /* AddCartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF7E688263472260005843D /* AddCartView.swift */; };
+		FDF7E68F263475C40005843D /* ArcShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF7E68E263475C40005843D /* ArcShape.swift */; };
+		FDF7E693263476680005843D /* Circles.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF7E692263476680005843D /* Circles.swift */; };
+		FDF7E697263477800005843D /* CircleEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF7E696263477800005843D /* CircleEmitter.swift */; };
+		FDF7E69B2634781F0005843D /* ArcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF7E69A2634781F0005843D /* ArcView.swift */; };
+		FDF7E69F263478BB0005843D /* WifiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF7E69E263478BB0005843D /* WifiView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +36,18 @@
 		FDF7E6562634682C0005843D /* SwiftUI-Animations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Animations.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDF7E6582634682C0005843D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDF7E6592634682C0005843D /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		FDF7E66E2634699A0005843D /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+		FDF7E673263469C00005843D /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		FDF7E67826346A610005843D /* Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
+		FDF7E67C26346BDD0005843D /* Tick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tick.swift; sourceTree = "<group>"; };
+		FDF7E68026346C3D0005843D /* ShirtView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShirtView.swift; sourceTree = "<group>"; };
+		FDF7E684263470370005843D /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		FDF7E688263472260005843D /* AddCartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCartView.swift; sourceTree = "<group>"; };
+		FDF7E68E263475C40005843D /* ArcShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcShape.swift; sourceTree = "<group>"; };
+		FDF7E692263476680005843D /* Circles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circles.swift; sourceTree = "<group>"; };
+		FDF7E696263477800005843D /* CircleEmitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleEmitter.swift; sourceTree = "<group>"; };
+		FDF7E69A2634781F0005843D /* ArcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcView.swift; sourceTree = "<group>"; };
+		FDF7E69E263478BB0005843D /* WifiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +81,9 @@
 		FDF7E646263468280005843D /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				FDF7E672263469B30005843D /* Utils */,
+				FDF7E66D263469870005843D /* Services */,
+				FDF7E66B263469540005843D /* Code */,
 				FDF7E647263468280005843D /* SwiftUI_AnimationsApp.swift */,
 				FDF7E648263468280005843D /* ContentView.swift */,
 				FDF7E6492634682C0005843D /* Assets.xcassets */,
@@ -88,6 +115,79 @@
 				FDF7E6592634682C0005843D /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		FDF7E66A263469490005843D /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				FDF7E677263469EF0005843D /* SupportShapes */,
+				FDF7E68026346C3D0005843D /* ShirtView.swift */,
+				FDF7E684263470370005843D /* CartView.swift */,
+				FDF7E688263472260005843D /* AddCartView.swift */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		FDF7E66B263469540005843D /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				FDF7E66C2634695F0005843D /* Animations */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		FDF7E66C2634695F0005843D /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				FDF7E68C263475790005843D /* Wifi */,
+				FDF7E66A263469490005843D /* Cart */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		FDF7E66D263469870005843D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FDF7E66E2634699A0005843D /* HapticManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		FDF7E672263469B30005843D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FDF7E673263469C00005843D /* Colors.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		FDF7E677263469EF0005843D /* SupportShapes */ = {
+			isa = PBXGroup;
+			children = (
+				FDF7E67826346A610005843D /* Triangle.swift */,
+				FDF7E67C26346BDD0005843D /* Tick.swift */,
+			);
+			path = SupportShapes;
+			sourceTree = "<group>";
+		};
+		FDF7E68C263475790005843D /* Wifi */ = {
+			isa = PBXGroup;
+			children = (
+				FDF7E68D2634759B0005843D /* SupportShapes */,
+				FDF7E696263477800005843D /* CircleEmitter.swift */,
+				FDF7E69A2634781F0005843D /* ArcView.swift */,
+				FDF7E69E263478BB0005843D /* WifiView.swift */,
+			);
+			path = Wifi;
+			sourceTree = "<group>";
+		};
+		FDF7E68D2634759B0005843D /* SupportShapes */ = {
+			isa = PBXGroup;
+			children = (
+				FDF7E68E263475C40005843D /* ArcShape.swift */,
+				FDF7E692263476680005843D /* Circles.swift */,
+			);
+			path = SupportShapes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,7 +287,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDF7E67D26346BDD0005843D /* Tick.swift in Sources */,
+				FDF7E693263476680005843D /* Circles.swift in Sources */,
+				FDF7E69B2634781F0005843D /* ArcView.swift in Sources */,
+				FDF7E697263477800005843D /* CircleEmitter.swift in Sources */,
 				FDF7E65C2634682C0005843D /* ContentView.swift in Sources */,
+				FDF7E68126346C3D0005843D /* ShirtView.swift in Sources */,
+				FDF7E674263469C00005843D /* Colors.swift in Sources */,
+				FDF7E67926346A610005843D /* Triangle.swift in Sources */,
+				FDF7E689263472260005843D /* AddCartView.swift in Sources */,
+				FDF7E68F263475C40005843D /* ArcShape.swift in Sources */,
+				FDF7E66F2634699A0005843D /* HapticManager.swift in Sources */,
+				FDF7E69F263478BB0005843D /* WifiView.swift in Sources */,
+				FDF7E685263470370005843D /* CartView.swift in Sources */,
 				FDF7E65A2634682C0005843D /* SwiftUI_AnimationsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
